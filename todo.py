@@ -3,6 +3,7 @@
 Very basic (unfinished) CLI todo list manager written in Python.
 Author: Marcus W. (c0llision)
 '''
+
 import sys
 import os
 
@@ -94,7 +95,6 @@ def action_prompt():
             return
 
         action, item = inp[0], ' '.join(inp[1:]) if len(inp) > 1 else ''
-
         do_action(action, item)
 
 
