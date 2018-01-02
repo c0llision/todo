@@ -14,6 +14,6 @@ Running without any arguments opens program in prompt mode, allowing you to type
 
 `add` - add a new task
 
-`ls` or `l` - list task
+`ls` or `l` - list all tasks
 
 `del` - delete a task
